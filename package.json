@@ -1,0 +1,20 @@
+{
+  "name": "analysis-p",
+  "version": "1.0.9",
+  "description": "",
+  "homepage": "https://github.com/RUGU2211/AWT#readme",
+  "bugs": {
+    "url": "https://github.com/RUGU2211/AWT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RUGU2211/AWT.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

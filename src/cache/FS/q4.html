@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 NODE FS</title>
+</head>
+<body>
+    <h2>Q4 Node FS</h2>
+    <form onsubmit="createFile(event)">
+        File name : <input type="text" placeholder="enter file name" id="fn" />
+        <br/>
+        <br/>
+        File Content : <input type="text" placeholder="enter content to write in file" id="content" />
+        <br/>
+        <br/>
+        <input type="submit" value="Create"/>
+    </form>
+
+    <script>
+        function createFile(e){
+            e.preventDefault();
+            
+            const fn = document.getElementById("fn").value;
+            const content = document.getElementById("content").value;
+
+            console.log(fn,content);
+            
+
+        }
+    </script>
+</body>
+</html>
