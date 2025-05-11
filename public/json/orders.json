@@ -1,0 +1,6 @@
+[
+    { "order_id": 101, "amt": 2500, "status": "pending" },
+    { "order_id": 102, "amt": 1800, "status": "completed" },
+    { "order_id": 103, "amt": 3000, "status": "pending" }
+  ]
+  

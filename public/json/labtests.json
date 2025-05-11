@@ -1,0 +1,6 @@
+[
+    { "patient_name": "Abc", "test_type": "Blood Test", "result": "Normal" },
+    { "patient_name": "Pqr", "test_type": "X-Ray", "result": "Fracture" },
+    { "patient_name": "Xyz", "test_type": "MRI", "result": "Normal" }
+]
+  

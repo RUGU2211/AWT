@@ -1,0 +1,6 @@
+[
+    { "item": "Paneer Butter Masala", "type": "veg", "price": 220 },
+    { "item": "Chicken Curry", "type": "non veg", "price": 280 },
+    { "item": "Veg Biryani", "type": "veg", "price": 180 }
+]
+  

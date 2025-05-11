@@ -1,0 +1,6 @@
+[
+    { "airline": "Air India", "departure": "2025-05-12T10:00", "fare": 4500 },
+    { "airline": "IndiGo", "departure": "2025-05-12T13:30", "fare": 3800 },
+    { "airline": "SpiceJet", "departure": "2025-05-13T07:00", "fare": 4200 }
+]
+  

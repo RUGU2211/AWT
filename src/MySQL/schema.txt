@@ -1,0 +1,52 @@
+-- Create Database
+CREATE DATABASE collegeDB;
+
+-- Use DB
+USE collegeDB;
+
+-- Attendance Table
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    month VARCHAR(20),
+    absent_days INT
+);
+
+INSERT INTO employees (name, month, absent_days) VALUES
+('John Doe', 'April', 3),
+('Jane Smith', 'April', 6),
+('Ravi Patel', 'April', 2),
+('Anita Shah', 'April', 7),
+('Arjun Mehta', 'April', 8);
+
+
+-- Restaurant Table
+CREATE TABLE restaurants (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    rating INT
+);
+
+INSERT INTO restaurants (name, rating) VALUES
+('Food Villa', 4),
+('Spice Hub', 6),
+('Biryani Blues', 7),
+('Café Delight', 3),
+('Sushi Central', 8);
+
+
+
+-- Properties Table
+CREATE TABLE properties (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    city VARCHAR(50),
+    price BIGINT
+);
+
+INSERT INTO properties (name, city, price) VALUES
+('Ocean Heights', 'Mumbai', 9500000),
+('Green Acres', 'Pune', 12000000),
+('Skyline Towers', 'Mumbai', 15000000),
+('Lake View', 'Nashik', 8000000),
+('Royal Residency', 'Mumbai', 10500000);

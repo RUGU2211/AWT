@@ -1,0 +1,6 @@
+[
+    { "storeName": "BigBazaar", "city": "Mumbai", "revenue": 95000 },
+    { "storeName": "D-Mart", "city": "Pune", "revenue": 87000 },
+    { "storeName": "Reliance Mart", "city": "Delhi", "revenue": 110000 }
+]
+  

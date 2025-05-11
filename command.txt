@@ -1,0 +1,31 @@
+# For react
+npm -v
+node -v
+npx create-react-app sample
+cd sample
+npm install
+npm install web-vitals
+code .
+npm start
+
+# Initialize a new Node.js project
+npm init -y
+
+# Install Express (for API routes)
+npm install express
+
+# Install body-parser (for parsing POST data)
+npm install body-parser cors
+
+# Install Nodemon for automatic server restart during development (optional)
+npm install --save-dev nodemon
+
+# Install MySQL package to connect Node.js with MySQL
+npm install mysql2
+
+# Install MongoDB driver to connect Node.js with MongoDB
+npm install mongodb
+
+# OR (recommended) use Mongoose for MongoDB queries
+npm install mongoose
+
